@@ -3,7 +3,7 @@ using FIAP.Library.Domain.DTOs;
 using FIAP.Library.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 
-namespace FIAP.Library.Infrastructure.Controller
+namespace FIAP.Library.Infrastructure.Controllers
 {
     [ApiController]
     [Route("[controller]")]
