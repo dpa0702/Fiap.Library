@@ -12,8 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FIAP.Library.Core\FIAP.Library.Core.csproj" />
-    <ProjectReference Include="..\FIAP.Library.Core\FIAP.Library.Domain.csproj" />
+    <ProjectReference Include="..\FIAP.Library.Domain\FIAP.Library.Domain.csproj" />
   </ItemGroup>
 
 </Project>

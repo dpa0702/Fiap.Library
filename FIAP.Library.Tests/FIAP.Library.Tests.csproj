@@ -20,7 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FIAP.Library.API\FIAP.Library.API.csproj" />
-    <ProjectReference Include="..\FIAP.Library.Core\FIAP.Library.Domain.csproj" />
+    <ProjectReference Include="..\FIAP.Library.Domain\FIAP.Library.Domain.csproj" />
     <ProjectReference Include="..\FIAP.Library.Infrastructure\FIAP.Library.Infrastructure.csproj" />
   </ItemGroup>
 
