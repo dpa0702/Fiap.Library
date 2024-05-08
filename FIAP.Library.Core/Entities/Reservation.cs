@@ -1,6 +1,6 @@
-﻿using FIAP.Library.Core.Enums;
+﻿using FIAP.Library.Domain.Enums;
 
-namespace FIAP.Library.Core.Entities
+namespace FIAP.Library.Domain.Entities
 {
     public class Reservation
     {

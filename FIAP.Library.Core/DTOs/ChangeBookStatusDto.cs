@@ -1,11 +1,6 @@
-﻿using FIAP.Library.Core.Enums;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using FIAP.Library.Domain.Enums;
 
-namespace FIAP.Library.Core.DTOs
+namespace FIAP.Library.Domain.DTOs
 {
     public class ChangeBookGenreDto
     {

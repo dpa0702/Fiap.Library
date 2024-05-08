@@ -1,4 +1,4 @@
-﻿using FIAP.Library.Core.Entities;
+﻿using FIAP.Library.Domain.Entities;
 
 namespace FIAP.Library.Infrastructure.Services.Interfaces
 {

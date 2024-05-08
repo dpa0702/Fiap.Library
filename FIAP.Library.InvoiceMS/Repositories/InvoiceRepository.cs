@@ -1,4 +1,4 @@
-﻿using FIAP.Library.Core.Entities;
+﻿using FIAP.Library.Domain.Entities;
 using FIAP.Library.InvoiceMS.Data;
 using FIAP.Library.InvoiceMS.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;

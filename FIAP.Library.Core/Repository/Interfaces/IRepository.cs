@@ -1,4 +1,4 @@
-﻿namespace FIAP.Library.Core.Repository.Interfaces
+﻿namespace FIAP.Library.Domain.Repository.Interfaces
 {
     public interface IRepository<T> where T : class
     {

@@ -1,5 +1,5 @@
 ﻿
-namespace FIAP.Library.Core.Enums
+namespace FIAP.Library.Domain.Enums
 {
     public enum EReservation
     {

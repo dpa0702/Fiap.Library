@@ -1,6 +1,6 @@
 ﻿using FIAP.Library.Infrastructure.Repositories.Interfaces;
 using FIAP.Library.Infrastructure.Services.Interfaces;
-using FIAP.Library.Core.Entities;
+using FIAP.Library.Domain.Entities;
 
 namespace FIAP.Library.Infrastructure.Services
 {

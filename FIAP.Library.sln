@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FIAP.Library.InvoiceMS", "F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FIAP.Library.Infrastructure", "FIAP.Library.Infrastructure\FIAP.Library.Infrastructure.csproj", "{6C521BB6-0308-4088-A8B7-407A692CA4DD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FIAP.Library.Core", "FIAP.Library.Core\FIAP.Library.Core.csproj", "{56674689-A255-462B-B529-BED73348115D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FIAP.Library.Domain", "FIAP.Library.Core\FIAP.Library.Domain.csproj", "{56674689-A255-462B-B529-BED73348115D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

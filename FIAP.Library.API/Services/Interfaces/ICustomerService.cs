@@ -1,4 +1,4 @@
-﻿using FIAP.Library.Core.DTOs;
+﻿using FIAP.Library.Domain.DTOs;
 
 namespace FIAP.Library.API.Services.Interfaces
 {

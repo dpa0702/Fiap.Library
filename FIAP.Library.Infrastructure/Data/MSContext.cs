@@ -1,4 +1,4 @@
-﻿using FIAP.Library.Core.Entities;
+﻿using FIAP.Library.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace FIAP.Library.Infrastructure.Data

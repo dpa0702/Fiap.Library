@@ -1,4 +1,4 @@
-﻿namespace FIAP.Library.Core.Entities
+﻿namespace FIAP.Library.Domain.Entities
 {
     public class Invoice
     {

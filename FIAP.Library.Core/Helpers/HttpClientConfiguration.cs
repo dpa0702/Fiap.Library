@@ -1,6 +1,6 @@
 ﻿using System.Net.Http.Headers;
 
-namespace FIAP.Library.Core.Helpers
+namespace FIAP.Library.Domain.Helpers
 {
     public static class HttpClientConfiguration
     {

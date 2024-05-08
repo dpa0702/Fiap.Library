@@ -1,6 +1,6 @@
 ﻿using FIAP.Library.API.Services.Interfaces;
-using FIAP.Library.Core.DTOs;
-using FIAP.Library.Core.Entities;
+using FIAP.Library.Domain.DTOs;
+using FIAP.Library.Domain.Entities;
 using MassTransit;
 
 namespace FIAP.Library.API.Services

@@ -1,9 +1,9 @@
 ﻿using FIAP.Library.Infrastructure.Repositories;
 using FIAP.Library.Infrastructure.Repositories.Interfaces;
 using FIAP.Library.Infrastructure.Services.Interfaces;
-using FIAP.Library.Core.DTOs;
-using FIAP.Library.Core.Entities;
-using FIAP.Library.Core.Enums;
+using FIAP.Library.Domain.DTOs;
+using FIAP.Library.Domain.Entities;
+using FIAP.Library.Domain.Enums;
 
 namespace FIAP.Library.Infrastructure.Services
 {

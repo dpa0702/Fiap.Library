@@ -1,5 +1,5 @@
-﻿using FIAP.Library.Core.DTOs;
-using FIAP.Library.Core.Entities;
+﻿using FIAP.Library.Domain.DTOs;
+using FIAP.Library.Domain.Entities;
 using FIAP.Library.InvoiceMS.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 

@@ -1,5 +1,5 @@
 ﻿using FIAP.Library.Infrastructure.Services.Interfaces;
-using FIAP.Library.Core.Entities;
+using FIAP.Library.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FIAP.Library.Infrastructure.Controller

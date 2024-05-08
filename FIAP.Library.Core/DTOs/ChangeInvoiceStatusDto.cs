@@ -1,4 +1,4 @@
-﻿namespace FIAP.Library.Core.DTOs
+﻿namespace FIAP.Library.Domain.DTOs
 {
     public class ChangeInvoiceStatusDto
     {

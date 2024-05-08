@@ -1,5 +1,5 @@
-﻿using FIAP.Library.Core.Entities;
-using FIAP.Library.Core.Repository.Interfaces;
+﻿using FIAP.Library.Domain.Entities;
+using FIAP.Library.Domain.Repository.Interfaces;
 
 namespace FIAP.Library.Infrastructure.Repositories.Interfaces
 {

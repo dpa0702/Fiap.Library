@@ -1,5 +1,5 @@
 ﻿using FIAP.Library.API.Services.Interfaces;
-using FIAP.Library.Core.DTOs;
+using FIAP.Library.Domain.DTOs;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FIAP.Library.API.Controllers

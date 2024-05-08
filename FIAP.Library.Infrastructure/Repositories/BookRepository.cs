@@ -1,6 +1,6 @@
 ﻿using FIAP.Library.Infrastructure.Data;
 using FIAP.Library.Infrastructure.Repositories.Interfaces;
-using FIAP.Library.Core.Entities;
+using FIAP.Library.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace FIAP.Library.Infrastructure.Repositories
