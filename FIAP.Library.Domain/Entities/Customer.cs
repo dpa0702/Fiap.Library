@@ -10,7 +10,7 @@ namespace FIAP.Library.Domain.Entities
         public bool Active { get; set; }
         public string email { get; set; }
         public string address { get; set; }
-        public ERentalStatus status { get; set; }
+        public EDocument document { get; set; }
 
         public virtual ICollection<RentBook> rentBooks { get; set; }
         public virtual ICollection<Reservation> reservations { get; set; }

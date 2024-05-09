@@ -13,6 +13,7 @@ namespace FIAP.Library.Infrastructure.Configurations
             builder.Property(u => u.Id).HasColumnType("INT").ValueGeneratedNever().UseIdentityColumn();
             builder.Property(u => u.name).HasColumnType("VARCHAR(100)").IsRequired();
             builder.Property(u => u.author).HasColumnType("DATETIME").IsRequired();
+            builder.Property(u => u.genre).HasColumnType("INT");
         }
     }
 }

@@ -13,6 +13,25 @@ namespace FIAP.Library.Tests.Domain.Entities
 
             Assert.IsNotNull(book);
         }
+        [Test]
+        public void TesteBookGenreFantasy()
+        {
+            var book = new Book();
+
+            book.genre = EGenre.Fantasy;
+
+            Assert.That(book.genre, Is.EqualTo(EGenre.Fantasy));
+        }
+
+        [Test]
+        public void TesteBookGenreSelfhelpr()
+        {
+            var book = new Book();
+
+            book.genre = EGenre.Selfhelp;
+
+            Assert.That(book.genre, Is.EqualTo(EGenre.Selfhelp));
+        }
 
         [Test]
         public void TesteBookGenreHorror()
@@ -21,7 +40,27 @@ namespace FIAP.Library.Tests.Domain.Entities
 
             book.genre = EGenre.Horror;
 
-            Assert.That(EGenre.Horror, Is.EqualTo(book.genre));
+            Assert.That(book.genre, Is.EqualTo(EGenre.Horror));
+        }
+
+        [Test]
+        public void TesteBookGenreTrip()
+        {
+            var book = new Book();
+
+            book.genre = EGenre.Trip;
+
+            Assert.That(book.genre, Is.EqualTo(EGenre.Trip));
+        }
+
+        [Test]
+        public void TesteBookGenreRomance()
+        {
+            var book = new Book();
+
+            book.genre = EGenre.Romance;
+
+            Assert.That(book.genre, Is.EqualTo(EGenre.Romance));
         }
     }
 }

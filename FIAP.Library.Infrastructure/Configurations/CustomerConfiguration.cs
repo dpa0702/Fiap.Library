@@ -16,7 +16,7 @@ namespace FIAP.Library.Infrastructure.Configurations
             builder.Property(c => c.Active).HasColumnType("bit").HasDefaultValue(1);
             builder.Property(c => c.email).HasColumnType("VARCHAR(255)").IsRequired();
             builder.Property(c => c.address).HasColumnType("VARCHAR(255)").IsRequired();
-            builder.Property(c => c.status).HasColumnType("INT");
+            builder.Property(c => c.document).HasColumnType("INT");
         }
     }
 }
