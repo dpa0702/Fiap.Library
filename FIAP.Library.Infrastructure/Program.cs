@@ -9,8 +9,15 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddScoped<IBookRepository, BookRepository>();
 builder.Services.AddScoped<IBookService, BookService>();
+
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 builder.Services.AddScoped<ICustomerService, CustomerService>();
+
+builder.Services.AddScoped<IReservationRepository, ReservationRepository>();
+builder.Services.AddScoped<IReservationService, ReservationService>();
+
+builder.Services.AddScoped<IRentBookRepository, RentBookRepository>();
+builder.Services.AddScoped<IRentBookService, RentBookService>();
 
 builder.Services.AddDbContext<MSContext>(
     op => op.UseSqlServer(builder.Configuration.GetConnectionString("Context")

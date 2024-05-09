@@ -4,6 +4,7 @@ using FIAP.Library.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FIAP.Library.Infrastructure.Migrations
 {
     [DbContext(typeof(MSContext))]
-    partial class MSContextModelSnapshot : ModelSnapshot
+    [Migration("20240509125421_CreateReservationTable")]
+    partial class CreateReservationTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -101,7 +103,7 @@ namespace FIAP.Library.Infrastructure.Migrations
 
                     b.HasIndex("customerId");
 
-                    b.ToTable("RentBooks");
+                    b.ToTable("RentBook");
                 });
 
             modelBuilder.Entity("FIAP.Library.Domain.Entities.Reservation", b =>

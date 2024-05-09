@@ -10,5 +10,9 @@ namespace FIAP.Library.Infrastructure.Data
         public DbSet<Book> Books { get; set; } = default!;
 
         public DbSet<Customer> Customers { get; set; } = default!;
+
+        public DbSet<Reservation> Reservations { get; set; } = default!;
+
+        public DbSet<RentBook> RentBooks { get; set; } = default!;
     }
 }
