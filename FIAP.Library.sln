@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FIAP.Library.Infrastructure
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FIAP.Library.Domain", "FIAP.Library.Domain\FIAP.Library.Domain.csproj", "{56674689-A255-462B-B529-BED73348115D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIAP.Library.Tests", "FIAP.Library.Tests\FIAP.Library.Tests.csproj", "{41E9CF77-81C8-49A7-A16A-67AE8DC367C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FIAP.Library.Tests", "FIAP.Library.Tests\FIAP.Library.Tests.csproj", "{41E9CF77-81C8-49A7-A16A-67AE8DC367C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
