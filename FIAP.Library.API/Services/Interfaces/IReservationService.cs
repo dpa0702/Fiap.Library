@@ -2,8 +2,8 @@
 
 namespace FIAP.Library.API.Services.Interfaces
 {
-    public interface IInvoiceService
+    public interface IReservationService
     {
-        Task NewInvoice(NewInvoiceDto dto);
+        Task NewReservation(NewReservationDto dto);
     }
 }

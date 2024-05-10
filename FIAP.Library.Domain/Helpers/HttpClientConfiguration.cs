@@ -8,7 +8,7 @@ namespace FIAP.Library.Domain.Helpers
         {
             var client =  new HttpClient()
             {
-                BaseAddress = new Uri("https://localhost:9003"),
+                BaseAddress = new Uri("https://localhost:9007"),
             };
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(
@@ -17,11 +17,11 @@ namespace FIAP.Library.Domain.Helpers
             return client;
         }
 
-        public static HttpClient InvoiceClient()
+        public static HttpClient BookClient()
         {
             var client =  new HttpClient()
             {
-                BaseAddress = new Uri("https://localhost:9005")
+                BaseAddress = new Uri("https://localhost:9007")
             };
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(

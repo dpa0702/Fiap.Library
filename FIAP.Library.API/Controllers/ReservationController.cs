@@ -6,21 +6,21 @@ namespace FIAP.Library.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class InvoiceController : ControllerBase
+    public class ReservationController : ControllerBase
     {
-        private readonly IInvoiceService _invoiceService;
+        private readonly IReservationService _reservationService;
 
-        public InvoiceController(IInvoiceService invoiceService)
+        public ReservationController(IReservationService reservationService)
         {
-            _invoiceService = invoiceService;
+            _reservationService = reservationService;
         }
 
         [HttpPost]
-        public async Task<IActionResult> NewInvoice([FromBody] NewInvoiceDto dto)
+        public async Task<IActionResult> NewReservation([FromBody] NewReservationDto dto)
         {
             try
             {
-                await _invoiceService.NewInvoice(dto);
+                await _reservationService.NewReservation(dto);
 
                 return Ok();
             }

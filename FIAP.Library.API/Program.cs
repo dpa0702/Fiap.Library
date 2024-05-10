@@ -9,7 +9,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<ICustomerService, CustomerService>();
-builder.Services.AddScoped<IInvoiceService, InvoiceService>();
+builder.Services.AddScoped<IReservationService, ReservationService>();
 
 var configuration = builder.Configuration;
 var server = configuration.GetSection("MassTransit")["Server"] ?? string.Empty;
