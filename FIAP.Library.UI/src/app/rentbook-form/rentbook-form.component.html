@@ -1,0 +1,108 @@
+<div class="container">
+    <div [hidden]="submitted">
+        <h1>Rental Form</h1>
+        <form (ngSubmit)="onSubmit()" #rentbookForm="ngForm">
+          <div class="form-group">
+            <label for="rentalDate">Rental Date</label>
+            <input type="text" class="form-control" id="rentalDate"
+                   required
+                   [(ngModel)]="model.rentalDate" name="rentalDate"
+                   #rentalDate="ngModel">
+            <div [hidden]="rentalDate.valid || rentalDate.pristine"
+                 class="alert alert-danger">
+                 Rental Date is required
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="deletionDate">Deletion Date</label>
+            <input type="text" class="form-control" id="deletionDate"
+                   required
+                   [(ngModel)]="model.deletionDate" name="deletionDate"
+                   #deletionDate="ngModel">
+            <div [hidden]="deletionDate.valid || deletionDate.pristine"
+                 class="alert alert-danger">
+                 Deletion Date is required
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="duoDate">Duo Date</label>
+            <input type="text" class="form-control" id="duoDate"
+                   required
+                   [(ngModel)]="model.duoDate" name="duoDate"
+                   #duoDate="ngModel">
+            <div [hidden]="duoDate.valid || duoDate.pristine"
+                 class="alert alert-danger">
+                 Duo Date is required
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="customerId">customerId</label>
+            <input type="text" class="form-control" id="customerId"
+                  required
+                   [(ngModel)]="model.customerId" name="customerId"
+                   #customerId="ngModel">
+            <div [hidden]="customerId.valid || customerId.pristine"
+                   class="alert alert-danger">
+                   customerId is required
+              </div>
+          </div>
+    
+          <div class="form-group">
+            <label for="bookId">bookId</label>
+            <input type="text" class="form-control" id="bookId"
+                  required
+                   [(ngModel)]="model.bookId" name="bookId"
+                   #bookId="ngModel">
+            <div [hidden]="bookId.valid || bookId.pristine"
+                   class="alert alert-danger">
+                   bookId is required
+              </div>
+          </div>
+
+          <div class="form-group">
+            <label for="status">Status</label>
+            <select class="form-control" id="status"
+                    required
+                    [(ngModel)]="model.status" name="status"
+                    #status="ngModel">
+              <option *ngFor="let status of statues" [value]="status">{{status}}</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn btn-success" [disabled]="!rentbookForm.form.valid">Submit</button>
+        </form>
+      </div>
+
+      <div [hidden]="!submitted">
+        <h2>You submitted the following Rental:</h2>
+        <div class="row">
+          <div class="col-xs-3">Rental Date</div>
+          <div class="col-xs-9">{{ model.rentalDate }}</div>
+        </div>
+        <div class="row">
+          <div class="col-xs-3">Deletion Date</div>
+          <div class="col-xs-9">{{ model.deletionDate }}</div>
+        </div>
+        <div class="row">
+          <div class="col-xs-3">Duo Date</div>
+          <div class="col-xs-9">{{ model.duoDate }}</div>
+        </div>
+        <div class="row">
+          <div class="col-xs-3">Customer Id</div>
+          <div class="col-xs-9">{{ model.customerId }}</div>
+        </div>
+        <div class="row">
+            <div class="col-xs-3">Book Id</div>
+            <div class="col-xs-9">{{ model.bookId }}</div>
+          </div>
+        <div class="row">
+          <div class="col-xs-3">Status</div>
+          <div class="col-xs-9">{{ model.status }}</div>
+        </div>
+        <br>
+        <button type="button" class="btn btn-primary" (click)="submitted=false">Edit</button>
+      </div>
+</div>
